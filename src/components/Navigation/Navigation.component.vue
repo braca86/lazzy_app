@@ -24,7 +24,7 @@ export default {
     }
   },
   methods: {
-    handleSelect (key, keyPath) {
+    handleSelect (key) {
       this.$router.push(key)
     }
   }
